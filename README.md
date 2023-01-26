@@ -25,6 +25,10 @@ This assignment is divided into three parts: data modeling, data engineering, an
 
 Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
 
+Resulting ERD to sketch out the tables:
+<img width="1673" alt="SQL ERD (Entity Relationship Diagram)" src="https://user-images.githubusercontent.com/111789352/214931573-e94446f0-e8b7-44ee-b7f3-b4a6955b32c6.png">
+
+
 #### Data Engineering
 
 * Use the provided information to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
@@ -42,20 +46,36 @@ Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool li
 Once you have a complete database, perform these steps:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
+<img width="1073" alt="image" src="https://user-images.githubusercontent.com/111789352/214932508-21e124f4-4f85-4228-873e-a49c85e7fd60.png">
+
 
 2. List first name, last name, and hire date for employees who were hired in 1986.
+<img width="866" alt="image" src="https://user-images.githubusercontent.com/111789352/214932829-35538269-b50a-46c8-bca3-51e8f147dd46.png">
+
 
 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
+<img width="1570" alt="image" src="https://user-images.githubusercontent.com/111789352/214932978-57b571d4-f6a2-449f-a853-a249a8a83108.png">
+
 
 4. List the department of each employee with the following information: employee number, last name, first name, and department name.
+<img width="1325" alt="image" src="https://user-images.githubusercontent.com/111789352/214933139-63d68957-505f-4dd8-8f48-5962a8a48af6.png">
+
 
 5. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
+<img width="1164" alt="image" src="https://user-images.githubusercontent.com/111789352/214933964-31197169-b4e7-4101-ac94-eb910cf17a9d.png">
+
 
 6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
+<img width="1232" alt="image" src="https://user-images.githubusercontent.com/111789352/214933293-bb667afe-6300-4e8b-af12-6d0013c920ff.png">
+
 
 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
+<img width="1389" alt="image" src="https://user-images.githubusercontent.com/111789352/214934196-eea72b9d-9d63-4c32-a572-19beeb9c138f.png">
+
 
 8. List the frequency count of employee last names (i.e., how many employees share each last name) in descending order.
+<img width="1578" alt="image" src="https://user-images.githubusercontent.com/111789352/214934359-89c03ea5-9ecc-45d1-b91a-686971253d0b.png">
+
 
 ## Bonus (Optional)
 
